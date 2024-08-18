@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+
+<body>
+    <main>
+        <div class="bill">
+            <h4 class="heading">Bill</h4>
+            <input type="number" class="priceInput" placeholder="Enter Bill">
+            <h4 class="heading">Select Tip</h4>
+            <div class="btn">
+                <div class="btnBox">5%</div>
+                <div class="btnBox">10%</div>
+                <div class="btnBox">15%</div>
+                <div class="btnBox">25%</div>
+                <div class="btnBox">50%</div>
+                <div class="btnBox">75%</div>
+            </div>
+            <input type="number" class="inputTip" placeholder="Custom Tip">
+            <h4 class="heading">Number Of People</h4>
+            <input type="number" class="inputPeople" placeholder="No Of People">
+            <button class="generateBill">Generate Bill</button>
+        </div>
+        <div class="slip">
+            <h4 class="headingSlip">Tip Amount</h4>
+            <div class="tipAmount">0</div>
+            <h4 class="headingSlip">Total</h4>
+            <div class="totalBill">0</div>
+            <h4 class="headingSlip">Each Person bill</h4>
+            <div class="personBill">0</div>
+            <button class="resetbtn" disabled>Reset</button>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

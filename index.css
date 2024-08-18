@@ -1,0 +1,137 @@
+body{
+box-sizing: border-box;
+}
+.bill{
+    height: 70%;
+    width : 305px;
+    padding: 10px 30px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 20px;
+    margin-top: 8px;
+}
+.slip{
+    height: 70%;
+    width : 305px;
+    background-color: darkblue ;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 27px 30px;
+    margin-top: 8px;
+}
+.btn{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 95%;
+    margin-bottom: 20px;
+}
+.btnBox{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 5%, 92%);
+    background-color: rgb(26 137 224 / 93%);
+}
+.selected{
+    outline: 4px solid orange;
+}
+.generateBill:hover{
+    background-color: rgba(66, 66, 174, 0.929);
+   
+}
+.resetbtn:hover{
+    background-color: rgba(239, 82, 50, 0.929);
+   
+}
+.priceInput{
+    width: 305px;
+    height: 30px;
+    background-color: hsla(0, 8%, 67%, 0.619);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.inputTip{
+    height: 30px;
+    width: 305px;
+    background-color: hsla(0, 8%, 67%, 0.619);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.inputPeople{
+    height: 30px;
+    width: 305px;
+    margin-top: 0px;
+    background-color: hsla(0, 8%, 67%, 0.619);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.tipAmount{
+    height: 30px;
+    width: 300px;
+    margin-top: 0px;
+    border: none;
+    color: white;
+    outline: none;
+}
+.totalBill{
+    height: 30px;
+    width: 300px;
+    margin-top: 0px;
+    border: none;
+    color: white;
+    outline: none;
+}
+.personBill{
+    height: 30px;
+    width: 300px;
+    border: none;
+    padding-bottom: 13px;
+    color: white;
+    outline: none;
+}
+
+.heading{
+    color: rgba(66, 66, 174, 0.929);
+}
+.headingSlip{
+    color: white;
+    padding-bottom: 30px;
+}
+.resetbtn{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.generateBill{
+    margin-top: 10px;
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(197, 197, 197);
+}
+
+@media(max-width:850px){
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
